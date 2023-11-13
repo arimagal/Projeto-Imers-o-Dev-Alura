@@ -64,6 +64,8 @@ JS
 var valorEmBitcoin = 20;
 var cotacaoDoBitcoin = 182076;
 
+var valorEmBitcoin = Number(prompt("Digite o valor do Bitcoin:"));
+
 var valorEmReal = valorEmBitcoin * cotacaoDoBitcoin;
 valorEmReal = valorEmReal.toFixed(2);
 alert(
